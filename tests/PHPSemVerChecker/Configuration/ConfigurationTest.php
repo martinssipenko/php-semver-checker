@@ -4,9 +4,9 @@ namespace PHPSemVerChecker\Test\Configuration;
 
 use PHPSemVerChecker\Configuration\Configuration;
 use PHPSemVerChecker\SemanticVersioning\Level;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class ConfigurationTest extends PHPUnit_Framework_TestCase
+class ConfigurationTest extends TestCase
 {
 	/**
 	 * @var \PHPSemVerChecker\Configuration\Configuration
